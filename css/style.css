@@ -696,3 +696,79 @@ form button:hover {
         padding-bottom: 70px;
     }
 }
+
+.calculator {
+    padding: 130px 0 0 130px;
+}
+
+@media (max-width: 1200px) {
+    .calculator {
+        width: 100%;
+        padding: 130px 0 0 100px;
+    }
+}
+
+@media (max-width: 768px) {
+    .calculator {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 0 30px 0;
+    }
+}
+
+
+#lp-section .img-wrapper {
+    background: url("../images/bg-lp.png") no-repeat center;
+    background-size: cover;
+    min-height: 850px;
+    height: 100%;
+}
+
+#lp-section .lp-logo {
+    padding-top: 100px;
+    padding-bottom: 60px;
+}
+
+.lp-title {
+    padding: 50px 20px 50px 0;
+    font-family: Roboto-Light;
+    font-size: 21px;
+    line-height: 34px;
+    color: #494949;
+}
+
+.lp-title span {
+    background-color: #47a7f9;
+    padding: 5px;
+    color: #fff;
+}
+
+#lp-section form {
+    margin: 0 0 60px 0;
+    color: #494949;
+}
+
+#lp-section form input {
+    border-color: #494949;
+}
+
+#lp-section form label {
+    color: #494949;
+}
+
+#lp-section form button {
+    background-color: #ff676d;
+    border: 1px solid #ff676d;
+    color: #fff;
+}
+
+#lp-section form button:hover {
+    background-color: #47a7f9;
+    border: 1px solid #47a7f9;
+}
+
+@media (max-width: 768px) {
+    #lp-section {
+        padding: 10px;
+    }
+}
