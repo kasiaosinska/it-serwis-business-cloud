@@ -698,6 +698,7 @@ form button:hover {
 }
 
 .calculator {
+    width: 110%;
     padding: 130px 0 0 130px;
 }
 
